@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="DCTaskFAReviewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="39"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" id="ogD-e8-iWz">
+                        <rect key="frame" x="164" y="0.0" width="140" height="39"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="FOe-tw-emt">
+                                <rect key="frame" x="3" y="9" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="ic_star_grey"/>
+                                <state key="selected" image="ic_star_yellow"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7y9-ue-K7n">
+                                <rect key="frame" x="31" y="9" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="ic_star_grey"/>
+                                <state key="selected" image="ic_star_yellow"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mkf-1c-JZF">
+                                <rect key="frame" x="59" y="9" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="ic_star_grey"/>
+                                <state key="selected" image="ic_star_yellow"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZOm-rJ-8dU">
+                                <rect key="frame" x="87" y="9" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="ic_star_grey"/>
+                                <state key="selected" image="ic_star_yellow"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="FX3-jQ-Bt6">
+                                <rect key="frame" x="115" y="9" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="ic_star_grey"/>
+                                <state key="selected" image="ic_star_yellow"/>
+                            </button>
+                            <view contentMode="scaleToFill" id="yCw-Pi-2Gd">
+                                <rect key="frame" x="0.0" y="0.0" width="140" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iGO-r4-GoQ">
+                                        <rect key="frame" x="3" y="9" width="22" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="ic_star_yellow"/>
+                                        <state key="disabled" image="ic_star_yellow"/>
+                                        <state key="selected" image="ic_star_yellow"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Lpd-ct-srY">
+                                        <rect key="frame" x="31" y="9" width="22" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="ic_star_yellow"/>
+                                        <state key="disabled" image="ic_star_yellow"/>
+                                        <state key="selected" image="ic_star_yellow"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="dVe-dx-qm0">
+                                        <rect key="frame" x="59" y="9" width="22" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="ic_star_yellow"/>
+                                        <state key="disabled" image="ic_star_yellow"/>
+                                        <state key="selected" image="ic_star_yellow"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="0vN-fK-eA9">
+                                        <rect key="frame" x="87" y="9" width="22" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="ic_star_yellow"/>
+                                        <state key="disabled" image="ic_star_yellow"/>
+                                        <state key="selected" image="ic_star_yellow"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xVE-SL-i6y">
+                                        <rect key="frame" x="115" y="9" width="22" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="ic_star_yellow"/>
+                                        <state key="disabled" image="ic_star_yellow"/>
+                                        <state key="selected" image="ic_star_yellow"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="36d-7j-mmx" customClass="DCLocalizedLabel">
+                        <rect key="frame" x="8" y="0.0" width="164" height="39"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="mContainerStarView" destination="ogD-e8-iWz" id="Qg3-zk-TEU"/>
+                <outlet property="mMaskStarView" destination="yCw-Pi-2Gd" id="zXt-bc-xEb"/>
+                <outlet property="mStar1Button" destination="FOe-tw-emt" id="wbt-NW-2St"/>
+                <outlet property="mStar2Button" destination="7y9-ue-K7n" id="fF2-XE-04T"/>
+                <outlet property="mStar3Button" destination="mkf-1c-JZF" id="vTR-0W-6Oe"/>
+                <outlet property="mStar4Button" destination="ZOm-rJ-8dU" id="yrb-F6-bVG"/>
+                <outlet property="mStar5Button" destination="FX3-jQ-Bt6" id="HQe-pA-ChP"/>
+                <outlet property="mTitleLabel" destination="36d-7j-mmx" id="uoV-Ja-hkn"/>
+            </connections>
+            <point key="canvasLocation" x="600" y="338"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_star_grey" width="18" height="17"/>
+        <image name="ic_star_yellow" width="18" height="17"/>
+    </resources>
+</document>

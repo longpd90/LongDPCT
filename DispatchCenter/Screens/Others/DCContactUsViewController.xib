@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DCContactUsViewController">
+            <connections>
+                <outlet property="mInforContent" destination="bOD-yL-Jkk" id="vl6-Zc-vgY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uU7-Ru-sfW">
+                    <rect key="frame" x="12" y="20" width="141" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="141" id="TyU-9n-B8f"/>
+                        <constraint firstAttribute="height" constant="21" id="Wwg-7T-axk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1el-Um-46b">
+                    <rect key="frame" x="12" y="46" width="296" height="2"/>
+                    <color key="backgroundColor" red="0.99607843139999996" green="0.74901960779999999" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="ne0-rk-h28"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bOD-yL-Jkk" customClass="DCShowInfoCellView">
+                    <rect key="frame" x="12" y="56" width="296" height="46"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4OX-kz-b65">
+                    <rect key="frame" x="10" y="102" width="300" height="1"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cea-lh-yMe">
+                    <rect key="frame" x="12" y="132" width="296" height="46"/>
+                    <state key="normal" title="Submit">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="uU7-Ru-sfW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="1kL-zY-Biv"/>
+                <constraint firstAttribute="bottom" secondItem="1el-Um-46b" secondAttribute="bottom" constant="520" id="61R-Ig-eAO"/>
+                <constraint firstItem="1el-Um-46b" firstAttribute="top" secondItem="uU7-Ru-sfW" secondAttribute="bottom" constant="5" id="7jR-3M-jKQ"/>
+                <constraint firstAttribute="trailing" secondItem="1el-Um-46b" secondAttribute="trailing" constant="12" id="8U8-mV-5vP"/>
+                <constraint firstItem="1el-Um-46b" firstAttribute="top" secondItem="uU7-Ru-sfW" secondAttribute="bottom" constant="5" id="C60-Et-dQd"/>
+                <constraint firstItem="uU7-Ru-sfW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="Hyd-i0-wr5"/>
+                <constraint firstAttribute="trailing" secondItem="uU7-Ru-sfW" secondAttribute="trailing" constant="167" id="N9B-DE-d8z"/>
+                <constraint firstItem="1el-Um-46b" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="fTq-g8-MVL"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

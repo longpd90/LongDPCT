@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DCTaskListWFViewController">
+            <connections>
+                <outlet property="lblUpdateResult" destination="Cxe-4b-kaD" id="tC5-qZ-Z2b"/>
+                <outlet property="taskListWFTableView" destination="C8y-gg-ayg" id="fRb-pP-YQh"/>
+                <outlet property="titleTaskList" destination="4jr-7I-7Rk" id="1HX-BQ-Tik"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wig-ug-dZN">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="37"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Task" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4jr-7I-7Rk" customClass="DCLocalizedLabel">
+                            <rect key="frame" x="79" y="8" width="162" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="162" id="GAr-wi-3V0"/>
+                                <constraint firstAttribute="height" constant="21" id="wDB-RK-b0O"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.08235294118" green="0.08235294118" blue="0.08235294118" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="4jr-7I-7Rk" firstAttribute="centerX" secondItem="wig-ug-dZN" secondAttribute="centerX" id="RNk-Mw-Sc4"/>
+                        <constraint firstItem="4jr-7I-7Rk" firstAttribute="centerY" secondItem="wig-ug-dZN" secondAttribute="centerY" id="Sg5-df-94h"/>
+                        <constraint firstAttribute="height" constant="37" id="i7o-JS-n0y"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="C8y-gg-ayg">
+                    <rect key="frame" x="0.0" y="37" width="320" height="531"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="yFd-G0-3nc"/>
+                        <outlet property="delegate" destination="-1" id="u6l-4Q-HQh"/>
+                    </connections>
+                </tableView>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Update success!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cxe-4b-kaD" customClass="DCLocalizedLabel">
+                    <rect key="frame" x="94" y="274" width="132" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="wig-ug-dZN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Huh-IR-0uo"/>
+                <constraint firstItem="wig-ug-dZN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Kqh-ms-7Sc"/>
+                <constraint firstAttribute="trailing" secondItem="C8y-gg-ayg" secondAttribute="trailing" id="OV3-l7-LUH"/>
+                <constraint firstAttribute="bottom" secondItem="C8y-gg-ayg" secondAttribute="bottom" id="RSQ-8Q-em0"/>
+                <constraint firstItem="C8y-gg-ayg" firstAttribute="top" secondItem="wig-ug-dZN" secondAttribute="bottom" id="moN-6G-oQe"/>
+                <constraint firstItem="C8y-gg-ayg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="pyU-oz-H4B"/>
+                <constraint firstAttribute="trailing" secondItem="wig-ug-dZN" secondAttribute="trailing" id="yVi-i8-3pK"/>
+            </constraints>
+            <point key="canvasLocation" x="417" y="401"/>
+        </view>
+    </objects>
+</document>

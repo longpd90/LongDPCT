@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DCOthersViewController">
+            <connections>
+                <outlet property="lblTitle" destination="aCz-FH-9fP" id="H1r-Kw-j5Q"/>
+                <outlet property="tvContent" destination="DOo-oy-S5h" id="dYy-EO-PS8"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Privacy Policy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aCz-FH-9fP" customClass="DCLocalizedLabel">
+                    <rect key="frame" x="12" y="17" width="296" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="296" id="p5G-TG-2UF"/>
+                        <constraint firstAttribute="height" constant="21" id="rEh-g9-V42"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rTR-BI-rmE">
+                    <rect key="frame" x="12" y="45" width="296" height="2"/>
+                    <color key="backgroundColor" red="0.99607843139999996" green="0.74901960779999999" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="0v7-0N-5oR"/>
+                    </constraints>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DOo-oy-S5h">
+                    <rect key="frame" x="12" y="55" width="296" height="495"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <string key="text" base64-UTF8="YES">
+TG9yZW0gSXBzdW0gaXMgc2ltcGx5IGR1bW15IHRleHQgb2YgdGhlIHByaW50aW5nDWFuZCB0eXBlc2V0
+dGluZyBpbmR1c3RyeS4gTG9yZW0gSXBzdW0gaGFzIGJlZW4NdGhlIGluZHVzdHJ5J3Mgc3RhbmRhcmQg
+ZHVtbXkgdGV4dCBldmVyIHNpbmNlIHRoZQ0xNTAwcywgd2hlbiBhbiB1bmtub3duIHByaW50ZXIgdG9v
+ayBhIGdhbGxleSBvZg10eXBlIGFuZCBzY3JhbWJsZWQgaXQgdG8gbWFrZSBhIHR5cGUgc3BlY2ltZW4N
+Ym9vay4gSXQgaGFzIHN1cnZpdmVkIG5vdCBvbmx5IGZpdmUgY2VudHVyaWVzLCBidXQNYWxzbyB0aGUg
+bGVhcCBpbnRvIGVsZWN0cm9uaWMgdHlwZXNldHRpbmcsIHJlbWFpbmluZw1lc3NlbnRpYWxseSB1bmNo
+YW5nZWQuIEl0IHdhcyBwb3B1bGFyaXNlZCBpbiB0aGUNMTk2MHMgd2l0aCB0aGUgcmVsZWFzZSBvZiBM
+ZXRyYXNldCBzaGVldHMgY29udGFpbmluZw1Mb3JlbSBJcHN1bSBwYXNzYWdlcywgYW5kIG1vcmUgcmVj
+ZW50bHkgd2l0aA1kZXNrdG9wIHB1Ymxpc2hpbmcgc29mdHdhcmUgbGlrZSBBbGR1cyBQYWdlTWFrZXIN
+aW5jbHVkaW5nIHZlcnNpb25zIG9mIExvcmVtIElwc3VtLgMNTG9yZW0gSXBzdW0gaXMgc2ltcGx5IGR1
+bW15IHRleHQgb2YgdGhlIHByaW50aW5nDWFuZCB0eXBlc2V0dGluZyBpbmR1c3RyeS4gTG9yZW0gSXBz
+dW0gaGFzIGJlZW4NdGhlIGluZHVzdHJ5J3Mgc3RhbmRhcmQgZHVtbXkgdGV4dCBldmVyIHNpbmNlIHRo
+ZQ0xNTAwcywgd2hlbiBhbiB1bmtub3duIHByaW50ZXIgdG9vayBhIGdhbGxleSBvZg10eXBlIGFuZCBz
+Y3JhbWJsZWQgaXQgdG8gbWFrZSBhIHR5cGUgc3BlY2ltZW4NYm9vay4gSXQgaGFzIHN1cnZpdmVkIG5v
+dCBvbmx5IGZpdmUgY2VudHVyaWVzLCBidXQNYWxzbyB0aGUgbGVhcCBpbnRvIGVsZWN0cm9uaWMgdHlw
+ZXNldHRpbmcsIHJlbWFpbmluZw1lc3NlbnRpYWxseSB1bmNoYW5nZWQuIEl0IHdhcyBwb3B1bGFyaXNl
+ZCBpbiB0aGUNMTk2MHMgd2l0aCB0aGUgcmVsZWFzZSBvZiBMZXRyYXNldCBzaGVldHMgY29udGFpbmlu
+Zw1Mb3JlbSBJcHN1bSBwYXNzYWdlcywgYW5kIG1vcmUgcmVjZW50bHkgd2l0aA1kZXNrdG9wIHB1Ymxp
+c2hpbmcgc29mdHdhcmUgbGlrZSBBbGR1cyBQYWdlTWFrZXINaW5jbHVkaW5nIHZlcnNpb25zIG9mIExv
+cmVtIElwc3VtLg0NTG9yZW0gSXBzdW0gaXMgc2ltcGx5IGR1bW15IHRleHQgb2YgdGhlIHByaW50aW5n
+DWFuZCB0eXBlc2V0dGluZyBpbmR1c3RyeS4gTG9yZW0gSXBzdW0gaGFzIGJlZW4NdGhlIGluZHVzdHJ5
+J3Mgc3RhbmRhcmQgZHVtbXkgdGV4dCBldmVyIHNpbmNlIHRoZQ0xNTAwcywgd2hlbiBhbiB1bmtub3du
+IHByaW50ZXIgdG9vayBhIGdhbGxleSBvZg10eXBlIGFuZCBzY3JhbWJsZWQgaXQgdG8gbWFrZSBhIHR5
+cGUgc3BlY2ltZW4NYm9vay4gSXQgaGFzIHN1cnZpdmVkIG5vdCBvbmx5IGZpdmUgY2VudHVyaWVzLCBi
+dXQNYWxzbyB0aGUgbGVhcCBpbnRvIGVsZWN0cm9uaWMgdHlwZXNldHRpbmcsIHJlbWFpbmluZw1lc3Nl
+bnRpYWxseSB1bmNoYW5nZWQuIEl0IHdhcyBwb3B1bGFyaXNlZCBpbiB0aGUNMTk2MHMgd2l0aCB0aGUg
+cmVsZWFzZSBvZiBMZXRyYXNldCBzaGVldHMgY29udGFpbmluZw1Mb3JlbSBJcHN1bSBwYXNzYWdlcywg
+YW5kIG1vcmUgcmVjZW50bHkgd2l0aA1kZXNrdG9wIHB1Ymxpc2hpbmcgc29mdHdhcmUgbGlrZSBBbGR1
+cyBQYWdlTWFrZXINaW5jbHVkaW5nIHZlcnNpb25zIG9mIExvcmVtIElwc3VtLg
+</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="rTR-BI-rmE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="A4m-IO-ddw"/>
+                <constraint firstItem="aCz-FH-9fP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="DMr-oX-cja"/>
+                <constraint firstAttribute="trailing" secondItem="aCz-FH-9fP" secondAttribute="trailing" constant="12" id="FN2-8C-PBp"/>
+                <constraint firstAttribute="trailing" secondItem="DOo-oy-S5h" secondAttribute="trailing" constant="12" id="JzZ-DA-EUd"/>
+                <constraint firstItem="DOo-oy-S5h" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="LL1-kF-SK9"/>
+                <constraint firstItem="rTR-BI-rmE" firstAttribute="top" secondItem="aCz-FH-9fP" secondAttribute="bottom" constant="7" id="TqY-C0-GCx"/>
+                <constraint firstAttribute="bottom" secondItem="DOo-oy-S5h" secondAttribute="bottom" constant="18" id="iqh-qh-pIt"/>
+                <constraint firstItem="DOo-oy-S5h" firstAttribute="top" secondItem="rTR-BI-rmE" secondAttribute="bottom" constant="8" id="m3s-vQ-73g"/>
+                <constraint firstItem="aCz-FH-9fP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="17" id="pEd-KH-OGa"/>
+                <constraint firstAttribute="trailing" secondItem="rTR-BI-rmE" secondAttribute="trailing" constant="12" id="wW2-aM-ljB"/>
+                <constraint firstItem="DOo-oy-S5h" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="wdu-l7-Smw"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="167" y="357"/>
+        </view>
+    </objects>
+</document>

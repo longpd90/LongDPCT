@@ -1,0 +1,376 @@
+/* 
+  Localizable.strings
+  DispatchCenter
+
+  Created by Hung Bui on 10/7/15.
+  Copyright © 2015 Helpser. All rights reserved.
+*/
+
+/* ============================================
+ * REGISTER
+ * ============================================ */
+"str_logo" = "LOGO";
+"str_first_name" = "Họ";
+"str_last_name" = "Tên";
+"str_email" = "Email";
+"str_country" = "Quốc gia";
+"str_phone" = "Điện thoại";
+"str_phone_number" = "Số điện thoại";
+"str_agreement" = "Cùng với việc tiến tới bước tiếp theo, quý vị đã đồng ý với \n Chính sách người dùng cuối của chúng tôi";
+"str_agreement_link" = "Chính sách người dùng cuối của chúng tôi";
+"str_select" = "Chọn";
+"str_sms_code_vertify" = "Chúng tôi sẽ gửi mã code\nxác nhận tới số này qua SMS";
+"str_ok" = "Đồng ý";
+"str_required_profile_fields" = "First Name, Last Name, Mobile, Quốc gia là yêu cầu bắt buộc";
+"msg_email_not_valid" = "Hãy nhập email đúng định dạng\n";
+"msg_phone_not_valid" = "Hãy nhập số điện thoại đúng định dạng";
+"msg_first_name_limit" = "First name dưới 100 chữ cái\n";
+"msg_last_name_limit" = "Last name dưới 100 chữ cái\n";
+"msg_first_name_nil" = "Hãy nhập first name của bạn\n";
+"msg_last_name_nil" = "Hãy nhập last name của bạn\n";
+"msg_email_nil" = "Hãy nhập email của bạn\n";
+"msg_phone_nil" = "Hãy nhập số điện thoại của bạn\n";
+"msg_country_nil" = "Hãy nhập quốc gia của bạn\n";
+"str_verification_code" = "Hãy nhập mã xác nhận đã gửi qua SMS\n";
+"str_password" = "Mật khẩu";
+"str_confirm_password" = "Xác nhận mật khẩu";
+"str_set_your_password" = "Xác định mật khẩu";
+"msg_password_not_equals" = "Mật khẩu không khớp nhau";
+"str_support_introduction" = "LOGO sẽ gửi mã xác nhận 1 lần duy nhất tới điện thoại của bạn.\nCó thể tính phí SMS";
+"str_support_confirm" = "Hãy xác nhận mã quốc gia và số điện thoại.";
+"str_contact_support" = "Liên hệ hỗ trợ";
+"str_contact_support_describe" = "Hãy mô tả vấn đề bạn mắc phải";
+"msg_contact_support_problem" = "Hãy nhập thông tin vấn đề";
+"str_thanks_status" = "Xin cảm ơn, chúng tôi sẽ thông tin lại sớm\n";
+"str_title_thanks_vc" = "Cảm ơn đã đăng ký!";
+"Submit" = "Gửi đi";
+"Set Your Password" = "Đặt mật khẩu";
+"Go to task list" = "Tới danh sách tác vụ";
+
+/* ============================================
+ * LOGIN
+ * ============================================ */
+"str_username" = "Username";
+"str_create_acc" = "Chưa có tài khoản? Tạo";
+"str_acc_link" = "Tạo";
+"str_forgot_pass" = "Quên mật khẩu? Reset mật khẩu";
+"str_reset_pass_link" = "Reset mật khẩu";
+"msg_password_nil" = "Hãy nhập mật khẩu của bạn";
+"Login" = "Đăng nhập";
+"Register" = "Đăng ký";
+"Login with Facebook" = "Đăng nhập qua Facebook";
+"Login with Google+" = "Đăng nhập qua Google+";
+"Login with Twitter" = "Đăng nhập qua Twitter";
+/* ============================================
+ * ACTIVE TASK
+ * ============================================ */
+"str_completed_task" = "Task đã hoàn thành";
+"str_actived_task" = "Các task đang hoạt động";
+
+/* ============================================
+ * TASK LIST
+ * ============================================ */
+"All Task" = "Tất cả các tác vụ";
+"In Progress" = "Đang tiến hành";
+"Pending" = "Đang chờ xác nhận";
+"Completed" = "Đã hoàn thành";
+"Today" = "Hôm nay";
+"Tomorrow" = "Ngày mai";
+"Next 3 Days" = "Trong 3 ngày tới";
+"More than 3 Days" = "Sau 3 ngày";
+"Reject" = "Loại bỏ";
+"Accept" = "Chấp nhận";
+"Stop Task" = "Dừng tác vụ";
+"str_success_task" = "Cập nhật thành công";
+"Job Date:" = "Ngày:";
+
+/* ============================================
+ * TASK DETAIL
+ * ============================================ */
+"str_task_detail" = "Thông tin chi tiết về task";
+"str_create_date" = "Ngày tạo";
+"str_task" = "Task số #";
+"str_total_amount" = "Tổng số lượng";
+"str_due_date" = "Ngày hoàn thành";
+"str_contact_name" = "Tên liên lạc";
+"str_contact_mobile" = "Mobile liên lạc";
+"str_location" = "Địa chỉ";
+"str_status" = "Trạng thái";
+"str_task_done" = "Task hoàn thành";
+
+"str_order_confirm" = "Xác nhận Order";
+"str_finding_you_an_operator" = "Đang tìm kiếm Operator";
+"str_operator_on_the_way" = "Operator đang trên đường tới";
+"str_operator_at_location" = "Operator đã tới";
+"str_operator_working_task" = "Operator đang thực hiện task";
+"str_operator_complete_task" = "Operator hoàn thành task";
+"str_awaiting_for_customer_approval" = "Đợi khách hàng duyệt";
+"str_task_complete" = "Hoàn thành";
+
+"str_average_rating" = "Đánh giá trung bình";
+"str_knowing_his_job" = "Am hiểu công việc";
+"str_was_on_time" = "Đúng giờ";
+"str_had_the_right_equipment" = "Có dụng cụ lao động chuẩn";
+"str_pricing" = "Giá cả";
+
+"str_team_leader" = "Trưởng nhóm";
+"str_team_member" = "Thành viên";
+"str_cancel" = "Huỷ";
+"str_edit_review" = "Chỉnh sửa đánh giá";
+
+"str_review" = "Đánh giá";
+"str_no_comment" = "Không bình luận";
+
+"Loading..." = "Đang tải..."; // this case don't need follow rule "str_"
+"str_team" = "Nhóm";
+"str_task_progress" = "Tiến trình tác vụ";
+"str_review" = "Đánh giá";
+"str_no_comment" = "Không bình luận";
+"str_reason" = "Nguyên nhân";
+"str_cancel_review" = "Huỷ đánh giá";
+"str_confirm_review" = "Gửi đánh giá";
+"str_task_confirm" = "Xác nhận";
+"str_task_cancel" = "Huỷ";
+
+
+"Loading..." = "Đang tải..."; // this case don't need follow rule "str_"
+"Processing..." = "Đang tải...";
+"Task successfully" = "Cập nhật thành công";
+"Cancel" = "Không";
+"OK" = "Đồng ý";
+"Status:" = "Tình trạng:";
+"Status" = "Tình trạng";
+"Task date:" = "Ngày: ";
+"Task#" = "Tác vụ số #";
+"Price:" = "Giá:";
+"Location:" = "Địa chỉ:";
+"Stop Task ?" = "Dừng task?";
+"New" = "Mới";
+"Cancelled" = "Đã cancel";
+"Finding You an Operator" = "Đang tìm người làm";
+"Waiting HO Confirm" = "Đợi HO xác nhận";
+"Operator On the Way" = "Người làm đang tới";
+"Order Confirmed" = "Đã nhận Order";
+"Operator Working Task" = "Đang tiến hành";
+"Awaiting for Customer Approval" = "Chờ khách hàng duyệt";
+"Task Complete" = "Đã hoàn thành";
+"Rejected" = "Đã loại bỏ";
+"At Location" = "Đã tới nơi";
+"Start Task" = "Bắt đầu tác vụ";
+"Stop Task" = "Dừng tác vụ";
+"Reason" = "Lý do";
+"Completed Task" = "Hoàn thành tác vụ";
+"Review" = "Đánh giá";
+"Task progress" = "Tiến trình tác vụ";
+"Need support?" = "Cần trợ giúp?";
+"Task Details" = "Chi tiết";
+"Details" = "Chi tiết";
+
+"Average Rating" = "Điểm trung bình" ;
+"Knows his job" = "Hiểu công việc";
+"Was on Time" = "Đúng giờ";
+"Had the right equipment" = "Trang bị tốt";
+"Pricing" = "Giá cả";
+
+
+/* ============================================
+ * RESET PASSWORD
+ * ============================================ */
+"str_reset_pass" = "Reset Mật khẩu";
+"str_reset_intro" = "Hãy nhập lại số điện thoại vào bên dưới. Bạn sẽ nhận được mã xác nhận reset mật khẩu";
+
+/* ============================================
+ * NETWORK ERROR
+ * ============================================ */
+"msg_network_error" = "Lỗi kết nối mạng";
+
+/* ============================================
+ * UPDATE PROFILE
+ * ============================================ */
+"str_profile" = "Hồ sơ";
+"str_mobile_number" = "Số di động";
+"str_address" = "Địa chỉ";
+"str_submit" = "Gửi đi";
+"str_logout" = "Đăng xuất";
+"str_cancel" = "Huỷ";
+
+/* ============================================
+ * EDIT PROFILE
+ * ============================================ */
+"msg_phone_not_valid" = "Hãy nhập số điện thoại của bạn\n";
+"str_street_address" = "Địa chỉ phố";
+"str_address2" = "Địa chỉ 2: (Tuỳ chọn)";
+"str_sub_district" = "Sub District";
+"str_district" = "Quận/huyện";
+"str_state" = "Bang/Tỉnh";
+"str_zip_code" = "Mã Zip/Bưu điện ";
+"msg_province_id_invalid" = "Hãy nhập đúng tên tỉnh/thành trước\n";
+"msg_district_id_invalid" = "Hãy nhập đúng tên quận/huyện trước\n";
+"str_use_current_geo_location" = "Sử dụng vị trí hiện tại";
+"str_select_your_location" = "Chọn vị trí của bạn";
+"str_set_location" = "Chọn vị trí";
+"Failed to get your location" = "Không lấy được vị trí của bạn";
+"msg_pick_location" = "Hãy chọn vị trí của bạn\n";
+"msg_country_not_support" = "Đất nước này không hỗ trợ";
+"msg_update_profile_success" = "Cập nhật hồ sơ thành công";
+"msg_update_profile_fail" = "Cập nhận hồ sơ thất bại";
+"msg_province_not_found" = "Hãy nhập lại tỉnh/thành \n";
+"msg_district_not_found" = "Hãy nhập lại quận/huyện \n";
+"msg_subdistrict_not_found" = "Hãy nhập lại subdistrict\n";
+"str_confirm_logout" = "Bạn xác nhận muốn đăng xuất?";
+"Back" = "Quay về";
+"Select" = "Chọn";
+"Failed to get your location" = "Lấy vị trí không thành công!";
+"Settings" = "Tuỳ chỉnh";
+"Location services are off" = "Dịch vụ vị trí đã tắt";
+"Background location is not enabled" = "Dịch vụ vị trí ngầm không bật";
+"To use background location you must turn on 'Always' in the Location Services Settings" = "Để sử dụng dịch vị trí ngầm, bạn cần bật 'Luôn luôn' ở Cài đặt Dịch vụ định vị";
+"To use background location you must turn on Location Sharing Settings" = "Để sử dụng dịch vị trí ngầm, bạn cần bật Cài đặt Chia sẻ vị trí";
+
+/* ============================================
+ * TRACKING
+ * ============================================ */
+"str_tracking" = "Dò theo vị trí khách hàng";
+"str_tracking_fa" = "Đang dò theo";
+"str_will_arrive_in_minute" = "Bạn sẽ tới trong %li phút";
+"str_will_arrive_in_minute_fa" = "Sẽ tới trong %li phút";
+"str_coming_soon" = "Chúng tôi đang tới sớm nhất có thể.";
+"str_coming_soon_fa" = "Bạn đang tới sớm nhất có thể";
+"msg_cant_get_location" = "Không tìm thấy vị trí";
+"str_confirm_country_phone" = "Hãy xác nhận mã quốc gia và nhập lại số điện thoại";
+"msg_support_ok" = "Cảm ơn!\nChúng tôi sẽ hồi đáp sớm nhất có thể.";
+
+
+/* ============================================
+ * INVOICE LIST
+ * ============================================ */
+"str_invoice_title" = "Hoá đơn";
+"msg_log_out" = "Bạn chắc chắn đăng xuất";
+"str_invoice_date" = "Ngày: %@";
+"Paid" = "Đã thanh toán";
+"Unpaid" = "Chưa thanh toán";
+
+
+/* ============================================
+ * INVOICE DETAIL
+ * ============================================ */
+"str_invoice_detail" = "Chi tiết Hoá đơn";
+"str_invoice_detail_date" = "Ngày của Hoá đơn:";
+"str_invoice_detail_no" = "Hoá đơn số#";
+"str_invoice_detail_status" = "Trạng thái:";
+"str_invoice_total" = "Tổng";
+"str_payment_detail" = "Thông tin thanh toán";
+"str_payment" = "Thanh toán";
+"str_payment_term" = "Điều khoản ";
+"str_payment_date" = "Ngày thanh toán";
+"str_next_payment" = "Thanh toán kế tiếp";
+"str_detail" = "Chi tiết";
+"str_invoice_task_no" = "Task số #";
+"str_wait_for_payment" = "Chờ thanh toán";
+"str_paid" = "Đã thanh toán";
+"str_pay_for_this_invoice" = "Thanh toán";
+"msg_input_phone_number" = "Xin hãy nhập số điện thoại\n";
+"str_alert_title_ok" = "Đồng ý";
+"Payment Term" = "Điều khoản thanh toán";
+"Next Payment" = "Thanh toán kế tiếp";
+"Payment Method" = "Phương thức thanh toán";
+"Payment Date" = "Ngày thanh toán";
+"Total amount" = "Tổng";
+"Paid" = "Đã thanh toán";
+"Waiting for payment" = "Chờ thanh toán";
+"Pay" = "Thanh toán";
+"Bank" = "Tài khoản Ngân hàng";
+"Cash" = "Tiền mặt";
+"Credit card" = "Thẻ tín dụng";
+"Service" = "Dịch vụ";
+
+/* ============================================
+ * DROP DOWN MENU
+ * ============================================ */
+"Profile" = "Hồ sơ";
+"Tasks" = "Tác vụ";
+"Invoices" = "Hoá đơn";
+"Help" = "Trợ giúp";
+"Terms" = "Điều khoản";
+"Privacy" = "Riêng tư";
+"Contact us" = "Liên hệ";
+"Setting" = "Tuỳ chỉnh";
+"Terms & Conditions" = "Các điều khoản";
+"Privacy Policy" = "Chính sách riêng tư";
+"Contact Us" = "Liên hệ chúng tôi";
+"End User License Agreement" = "Cam kết bản quyền người dùng cuối";
+"Contact Support" = "Liên hệ hỗ trợ";
+
+/* ============================================
+ * CALL ACTION
+ * ============================================ */
+"str_call" = "Gọi %@";
+"str_callcenter" = "Gọi trung tâm";
+"Can not call this phone number" = "không thể gọi đến số này";
+"Phone number is empty" = "Số điện thoại không có";
+
+/* ============================================
+ * SETTING
+ * ============================================ */
+"Notifications" = "Thông báo";
+"Online Status" = "Trạng thái online";
+"On" = "Bật";
+"Off" = "Tắt";
+"Privacy" = "Riêng tư";
+"Share Location" = "Chia sẻ vị trí";
+"Setting>Notifications" = "Tuỳ chỉnh>Thông báo";
+"Setting>Privacy" = "Tuỳ chỉnh>Riêng tư";
+"Show Preview" = "Cho phép xem trước";
+"Enable this option to include a preview of the message when a push notification arrives." = "Bật tuỳ chọn này để xem trước tin nhắn khi có thông báo gửi tới.";
+"In-app sounds" = "Báo âm trong-ứng-dụng";
+"Enable this option to revice a sound alert when a new message arrives while the app is running." = "Bật tuỳ chỉnh này để tạo âm thanh báo tin nhắn mới khi ứng dụng đang chạy.";
+"In-app Vibration" = "Báo rung trong-ứng-dụng";
+"Enable this option to recive a vibration alert when a new message arrives while the app is running." = "Bật tuỳ chỉnh này để nhận báo rung khi có tin nhắn mới trong khi ứng dụng đang chạy.";
+"Share Current Location" = "Chia sẻ vị trí hiện tại";
+"Enable this option to share your current location." = "Bật tuỳ chỉnh này để chia sẻ vị trí hiện tại của bạn.";
+"Setting>Online Status" = "Tuỳ chỉnh>Trạng thái online";
+"Online" = "Online";
+"Enable this option appears online" = "Bật tuỳ chỉnh này để xuất hiện online.";
+"Are you sure you want to logout?" = "Bạn chắc chắn muốn đăng xuất?";
+"Log Out" = "Đăng xuất";
+
+/* ============================================
+ * CHAT
+ * ============================================ */
+"Choose photo" = "Chọn ảnh";
+"Camera" = "Máy ảnh";
+"Camera Roll" = "Thư viện ảnh";
+"str_photo_cancel" = "Huỷ";
+"Tap here to change ▾" = "Tap vào đây để thay đổi ▾";
+"This app does not have access to your photos or videos\n You can enable access in Privacy Settings" = "Ứng dụng này không được truy nhập ảnh và video của bạn\n Cài đặt quyền này ở Cài đặt/Quyền riêng tư";
+"The client is not authorized to access the hardware for the media type" = "Người dùng không cho phép truy nhập phần cứng cho loại tài nguyên phương tiện này";
+"Camera roll access" = "Truy nhập thư viện ảnh";
+"%@ finished, you can't send message" = "%@ kết thúc, không gửi được tin nhắn";
+"Can't you send a message, You are not connected to chat" = "Bạn không gửi được tin nhắn, không kết nối với chat";
+"Custom Action" = "Hành động tuỳ chỉnh";
+
+/* ============================================
+ * VERIFY SMS CODE
+ * ============================================ */
+"Continue" = "Tiếp tục";
+"Didn't receive verification code?" = "Chưa nhận được mã xác nhận?";
+"Resend verification code" = "Gửi lại mã xác nhận";
+/* ============================================
+ * PAYMENT
+ * ============================================ */
+"Credit Card" = "Thẻ tín dụng";
+"Bank Transfer" = "Ngân hàng";
+"Cash" = "Tiền mặt";
+"Card Holder Name" = "Tên chủ thẻ";
+"Credit Card Number" = "Số thẻ tín dụng";
+"Secure Code(CVV2)" = "Mã an toàn(CVV2)";
+"Month" = "Tháng";
+"Year" = "Năm";
+"Confirm Pay By Cash" = "Xác nhận trả tiền mặt";
+"Confirm Bank Transfer" = "Xác nhận giao dịch ngân hàng";
+"Payment Method" = "Phương thức thanh toán";
+"Expiration" = "Hết hạn";
+"Ok" = "Đồng ý";
+"Merchant ID is required" = "Bắt buộc điền ID Bên buôn bán";
+"Immediate Payment" = "Thanh toán ngay";
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="DCPaymentByCashCell" id="KGk-i7-Jjw" customClass="DCPaymentByCashCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PSm-oq-3a5" customClass="DCLocalizedButton">
+                        <rect key="frame" x="50" y="5" width="220" height="35"/>
+                        <color key="backgroundColor" red="1" green="0.74509803919999995" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="220" id="gS3-dD-FbF"/>
+                            <constraint firstAttribute="height" constant="35" id="mvd-of-K1A"/>
+                        </constraints>
+                        <state key="normal" title="Confirm Pay By Cash">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="paymentByCash:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="xB0-kt-0Ds"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="PSm-oq-3a5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Bar-Nj-4zw"/>
+                    <constraint firstItem="PSm-oq-3a5" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Hcy-ep-Dlb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="446" y="311.5"/>
+        </tableViewCell>
+    </objects>
+</document>

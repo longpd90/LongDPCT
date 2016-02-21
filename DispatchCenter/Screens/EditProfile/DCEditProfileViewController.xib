@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DCEditProfileViewController">
+            <connections>
+                <outlet property="mAddress2View" destination="kZD-ib-7dc" id="Jvz-m2-ysv"/>
+                <outlet property="mAddressLabel" destination="dfB-ho-cAp" id="B5s-pq-Zmx"/>
+                <outlet property="mContainerScrollView" destination="d8S-UD-PnB" id="jl5-Xu-i1B"/>
+                <outlet property="mCountryView" destination="gV6-1M-hmS" id="CJr-ui-8wH"/>
+                <outlet property="mDistrictView" destination="eDR-pd-glU" id="bDC-qe-fCR"/>
+                <outlet property="mFirstNameView" destination="N44-h1-Tin" id="JyU-fo-6eY"/>
+                <outlet property="mIconMap" destination="SM6-o0-rEv" id="CQU-Oh-U1d"/>
+                <outlet property="mLastNameView" destination="RgZ-j7-job" id="6Gx-nO-qbi"/>
+                <outlet property="mLocationLabel" destination="YeN-i9-LH1" id="lyj-kH-ZPV"/>
+                <outlet property="mLogOutButton" destination="iNi-pf-BtQ" id="HT9-uc-VaT"/>
+                <outlet property="mMobileNumbLabel" destination="crb-sE-CX9" id="Ic4-ew-orQ"/>
+                <outlet property="mMobileNumberView" destination="IQM-GE-CVm" id="c9b-QL-YTI"/>
+                <outlet property="mProfileSecitonLabel" destination="Jlm-BA-ogK" id="qy7-wt-dQr"/>
+                <outlet property="mStateView" destination="62H-WA-2ZX" id="sjR-a3-kDl"/>
+                <outlet property="mStreetAddressView" destination="z2n-qK-hkV" id="JxL-LY-srw"/>
+                <outlet property="mSubDistrictView" destination="83T-ZX-Ubx" id="Mmr-MT-OY6"/>
+                <outlet property="mSubmitButton" destination="aSy-Uv-vsM" id="3Bz-3F-ZPk"/>
+                <outlet property="mZipCodeView" destination="KAl-8A-jJO" id="kfv-aU-kng"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="d8S-UD-PnB" customClass="TPKeyboardAvoidingScrollView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Jlm-BA-ogK" customClass="DCTitleWithBottomView">
+                            <rect key="frame" x="8" y="19" width="304" height="30"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" id="N44-h1-Tin" customClass="DCShowInfoCellView">
+                            <rect key="frame" x="8" y="57" width="304" height="29"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="RgZ-j7-job" customClass="DCShowInfoCellView">
+                            <rect key="frame" x="8" y="94" width="304" height="29"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="crb-sE-CX9" customClass="DCTitleWithBottomView">
+                            <rect key="frame" x="8" y="133" width="304" height="30"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" id="IQM-GE-CVm" customClass="DCShowInfoCellView">
+                            <rect key="frame" x="8" y="171" width="304" height="29"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dfB-ho-cAp" customClass="DCTitleWithBottomView">
+                            <rect key="frame" x="8" y="210" width="304" height="30"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" id="z2n-qK-hkV" customClass="DCShowInfoCellView">
+                            <rect key="frame" x="8" y="248" width="304" height="29"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="kZD-ib-7dc" customClass="DCShowInfoCellView">
+                            <rect key="frame" x="8" y="285" width="304" height="29"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="62H-WA-2ZX" customClass="DCShowInfoCellView">
+                            <rect key="frame" x="8" y="359" width="304" height="29"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="83T-ZX-Ubx" customClass="DCShowInfoCellView">
+                            <rect key="frame" x="164" y="396" width="148" height="29"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="gV6-1M-hmS" customClass="DCShowInfoCellView">
+                            <rect key="frame" x="8" y="322" width="148" height="29"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="KAl-8A-jJO" customClass="DCShowInfoCellView">
+                            <rect key="frame" x="164" y="322" width="148" height="29"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aSy-Uv-vsM">
+                            <rect key="frame" x="8" y="463" width="304" height="40"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <state key="normal" title="Continue">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="clickSubmitBtn:" destination="-1" eventType="touchUpInside" id="TEM-Wu-v0r"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iNi-pf-BtQ">
+                            <rect key="frame" x="8" y="512" width="304" height="40"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <state key="normal" title="Continue">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="clickLogOutBtn:" destination="-1" eventType="touchUpInside" id="6b8-OT-0xI"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" id="eDR-pd-glU" customClass="DCShowInfoCellView">
+                            <rect key="frame" x="8" y="396" width="148" height="29"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_location" id="SM6-o0-rEv">
+                            <rect key="frame" x="8" y="436" width="16" height="16"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YeN-i9-LH1" customClass="DCUnderLineLabel">
+                            <rect key="frame" x="29" y="434" width="274" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="600" y="267"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_location" width="14" height="16"/>
+    </resources>
+</document>

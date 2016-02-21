@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="213" id="KGk-i7-Jjw" customClass="DCPaymentTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="213"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="212"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="visa-icon" translatesAutoresizingMaskIntoConstraints="NO" id="y9f-4m-2Yn">
+                        <rect key="frame" x="12" y="0.0" width="100" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="TaO-ZJ-hsg"/>
+                            <constraint firstAttribute="width" constant="100" id="Zmw-dv-oYs"/>
+                        </constraints>
+                    </imageView>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Card Holder Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BFe-5i-dlV" customClass="DCLocalizedTextField">
+                        <rect key="frame" x="20" y="30" width="280" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="j0t-oi-hCg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lcT-ZR-EQO">
+                        <rect key="frame" x="20" y="60" width="280" height="2"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="D5S-De-uxJ"/>
+                        </constraints>
+                    </imageView>
+                    <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Credit Card Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p3P-65-i3D" customClass="DCLocalizedTextField">
+                        <rect key="frame" x="20" y="62" width="280" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="AtM-mw-KNS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qlG-BH-AIW">
+                        <rect key="frame" x="20" y="92" width="280" height="2"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="TPl-G4-STT"/>
+                        </constraints>
+                    </imageView>
+                    <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Secure Code(CVV2)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hwW-vM-BA3" customClass="DCLocalizedTextField">
+                        <rect key="frame" x="20" y="94" width="280" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="4LF-J2-3Vx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0aX-m8-IE4">
+                        <rect key="frame" x="20" y="124" width="280" height="2"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="TPc-Zp-IMc"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Expiration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TI5-Ey-7FS" customClass="DCLocalizedLabel">
+                        <rect key="frame" x="20" y="127" width="89" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="6Vb-Kg-wL9"/>
+                            <constraint firstAttribute="width" constant="89" id="tl6-YE-Pjc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Month" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hmr-iU-CHK" customClass="DCLocalizedTextField">
+                        <rect key="frame" x="20" y="145" width="130" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="1D7-gR-vyL"/>
+                            <constraint firstAttribute="width" constant="130" id="ggt-Xy-bLn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3T5-e6-UjW">
+                        <rect key="frame" x="20" y="170" width="135" height="2"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="135" id="E9v-dx-vi7"/>
+                            <constraint firstAttribute="height" constant="2" id="HJM-FY-mx7"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TBB-6Q-BbN">
+                        <rect key="frame" x="165" y="170" width="135" height="2"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="135" id="5wX-6d-6r3"/>
+                            <constraint firstAttribute="height" constant="2" id="spA-gK-PkG"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgN-lW-72T" customClass="DCLocalizedButton">
+                        <rect key="frame" x="50" y="175" width="220" height="35"/>
+                        <color key="backgroundColor" red="1" green="0.74509803921568629" blue="0.058823529411764705" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="KCF-gw-1in"/>
+                            <constraint firstAttribute="width" constant="220" id="zP7-46-7dA"/>
+                        </constraints>
+                        <state key="normal" title="Continue">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="continueButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="FZp-Jg-cV9"/>
+                        </connections>
+                    </button>
+                    <textField opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Year" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zRb-YB-5hA" customClass="DCLocalizedTextField">
+                        <rect key="frame" x="160" y="145" width="130" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="130" id="TIf-wx-FNA"/>
+                            <constraint firstAttribute="height" constant="25" id="wYz-DJ-1Vx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="p3P-65-i3D" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="3Zz-Ev-bH9"/>
+                    <constraint firstAttribute="trailing" secondItem="p3P-65-i3D" secondAttribute="trailing" constant="20" id="4eL-cT-pn9"/>
+                    <constraint firstAttribute="trailing" secondItem="0aX-m8-IE4" secondAttribute="trailing" constant="20" id="4eh-Ym-wVr"/>
+                    <constraint firstItem="zRb-YB-5hA" firstAttribute="top" secondItem="0aX-m8-IE4" secondAttribute="bottom" constant="19" id="7n9-00-UIg"/>
+                    <constraint firstItem="BFe-5i-dlV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="DO6-In-TzA"/>
+                    <constraint firstItem="qlG-BH-AIW" firstAttribute="top" secondItem="p3P-65-i3D" secondAttribute="bottom" id="DYi-2k-a1W"/>
+                    <constraint firstItem="TI5-Ey-7FS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Dhz-io-Yqq"/>
+                    <constraint firstItem="TBB-6Q-BbN" firstAttribute="top" secondItem="zRb-YB-5hA" secondAttribute="bottom" id="FiH-OO-muK"/>
+                    <constraint firstItem="hwW-vM-BA3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="FzM-us-cXz"/>
+                    <constraint firstItem="y9f-4m-2Yn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="Iue-wM-hRg"/>
+                    <constraint firstItem="0aX-m8-IE4" firstAttribute="top" secondItem="hwW-vM-BA3" secondAttribute="bottom" id="KBd-s2-FLj"/>
+                    <constraint firstItem="3T5-e6-UjW" firstAttribute="top" secondItem="hmr-iU-CHK" secondAttribute="bottom" id="Nhr-fq-O53"/>
+                    <constraint firstItem="hmr-iU-CHK" firstAttribute="top" secondItem="0aX-m8-IE4" secondAttribute="bottom" constant="19" id="Q05-NH-d0P"/>
+                    <constraint firstItem="hwW-vM-BA3" firstAttribute="top" secondItem="qlG-BH-AIW" secondAttribute="bottom" id="SmX-hJ-2ME"/>
+                    <constraint firstItem="pgN-lW-72T" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="WR9-me-H8a"/>
+                    <constraint firstAttribute="trailing" secondItem="TBB-6Q-BbN" secondAttribute="trailing" constant="20" id="XP0-cX-OPT"/>
+                    <constraint firstItem="lcT-ZR-EQO" firstAttribute="top" secondItem="BFe-5i-dlV" secondAttribute="bottom" id="ZBp-bt-BFe"/>
+                    <constraint firstItem="3T5-e6-UjW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Zzd-yU-aad"/>
+                    <constraint firstItem="pgN-lW-72T" firstAttribute="top" secondItem="TBB-6Q-BbN" secondAttribute="bottom" constant="3" id="bPz-SS-vz1"/>
+                    <constraint firstItem="p3P-65-i3D" firstAttribute="top" secondItem="lcT-ZR-EQO" secondAttribute="bottom" id="cXv-ob-EEn"/>
+                    <constraint firstItem="lcT-ZR-EQO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="eon-6y-og0"/>
+                    <constraint firstAttribute="trailing" secondItem="BFe-5i-dlV" secondAttribute="trailing" constant="20" id="eua-RC-ijR"/>
+                    <constraint firstItem="TI5-Ey-7FS" firstAttribute="top" secondItem="0aX-m8-IE4" secondAttribute="bottom" constant="1" id="gOJ-gI-qvU"/>
+                    <constraint firstItem="y9f-4m-2Yn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="hkO-zO-kYm"/>
+                    <constraint firstAttribute="trailing" secondItem="qlG-BH-AIW" secondAttribute="trailing" constant="20" id="iBd-sf-Zdx"/>
+                    <constraint firstItem="qlG-BH-AIW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="kJM-Yg-n1Q"/>
+                    <constraint firstAttribute="trailing" secondItem="hwW-vM-BA3" secondAttribute="trailing" constant="20" id="nLs-d2-Qfu"/>
+                    <constraint firstItem="hmr-iU-CHK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="tuF-yi-x3B"/>
+                    <constraint firstAttribute="trailing" secondItem="zRb-YB-5hA" secondAttribute="trailing" constant="25" id="uu9-Jf-fyC"/>
+                    <constraint firstItem="0aX-m8-IE4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="wUC-bO-Wv4"/>
+                    <constraint firstAttribute="trailing" secondItem="lcT-ZR-EQO" secondAttribute="trailing" constant="20" id="wUv-vM-GAc"/>
+                    <constraint firstItem="BFe-5i-dlV" firstAttribute="top" secondItem="y9f-4m-2Yn" secondAttribute="bottom" constant="2" id="x2s-El-vMw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cardHolderNameTextField" destination="BFe-5i-dlV" id="Ell-v0-UaX"/>
+                <outlet property="cardNumberTextField" destination="p3P-65-i3D" id="b7m-KE-IxA"/>
+                <outlet property="monthTextField" destination="hmr-iU-CHK" id="qyB-za-Kou"/>
+                <outlet property="securityCodeTextField" destination="hwW-vM-BA3" id="Mrj-oa-Ubc"/>
+                <outlet property="yearTextField" destination="zRb-YB-5hA" id="Dnh-d9-3Sh"/>
+            </connections>
+            <point key="canvasLocation" x="446" y="296.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="visa-icon" width="105" height="28"/>
+    </resources>
+</document>

@@ -1,0 +1,16 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, "8.0"
+xcodeproj 'DispatchCenter.xcodeproj'
+link_with 'WF', 'FA'
+pod 'AFNetworking', '~> 2.6'
+pod 'TPKeyboardAvoiding', '~> 1.2'
+pod 'Masonry'
+pod 'JSQSystemSoundPlayer', '~> 2.0'
+pod 'SDWebImage', '~>3.7'
+pod 'MWPhotoBrowser'
+pod 'FBSDKCoreKit'
+pod 'FBSDKLoginKit'
+pod 'Google/SignIn'
+pod 'TwitterKit'
+pod 'TwitterCore'
+pod 'QuickBlox'

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DCDropDownMenuViewController">
+            <connections>
+                <outlet property="menuHolderFAView" destination="dAO-tH-KJy" id="Uin-je-J16"/>
+                <outlet property="menuHolderWFView" destination="IY0-SX-UWc" id="rlV-Jt-Hmb"/>
+                <outlet property="view" destination="iN0-l3-epB" id="DKb-uT-wjb"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UIControl">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IY0-SX-UWc" userLabel="View - WF">
+                    <rect key="frame" x="138" y="29" width="168" height="167"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSf-W4-oh2">
+                            <rect key="frame" x="45" y="5" width="100" height="30"/>
+                            <state key="normal" title="Profile">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vfM-S6-6AG">
+                            <rect key="frame" x="45" y="32" width="100" height="30"/>
+                            <state key="normal" title="Task list">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="showTaskListBtnTouched:" destination="-1" eventType="touchUpInside" id="tcJ-0C-hhg"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NuM-WO-qMt">
+                            <rect key="frame" x="45" y="57" width="100" height="30"/>
+                            <state key="normal" title="Help">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="helpBtnTouched:" destination="-1" eventType="touchUpInside" id="fLa-rP-8k3"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TlL-uS-Fbf">
+                            <rect key="frame" x="45" y="78" width="100" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="contentEdgeInsets" minX="24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="titleEdgeInsets" minX="12" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Terms" image="ic_menu_term">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="termsBtnTouched:" destination="-1" eventType="touchUpInside" id="lrg-AI-dfm"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8vx-SU-GuX">
+                            <rect key="frame" x="14" y="101" width="140" height="22"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="contentEdgeInsets" minX="24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="titleEdgeInsets" minX="12" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Privacy" image="ic_menu_privacy">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="privacyBtnTouched:" destination="-1" eventType="touchUpInside" id="Ziy-BF-PEo"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5J-Fy-PhU">
+                            <rect key="frame" x="14" y="124" width="140" height="22"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="contentEdgeInsets" minX="24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="titleEdgeInsets" minX="12" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Contact us" image="ic_menu_contact_us">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="contactUsBtnTouched:" destination="-1" eventType="touchUpInside" id="b6S-e7-5uM"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRi-ka-ZmG">
+                            <rect key="frame" x="45" y="137" width="100" height="30"/>
+                            <state key="normal" title="Logout">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="logoutBtnTouched:" destination="-1" eventType="touchUpInside" id="CwS-Jg-5EO"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="168" id="kwD-YR-KqV"/>
+                        <constraint firstAttribute="height" constant="167" id="pUq-dL-AuA"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dAO-tH-KJy" userLabel="View - FA">
+                    <rect key="frame" x="166" y="29" width="140" height="167"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_menu" translatesAutoresizingMaskIntoConstraints="NO" id="3Nn-J9-bp1">
+                            <rect key="frame" x="0.0" y="0.0" width="140" height="171"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPw-YP-RFy" customClass="DCLocalizedButton">
+                            <rect key="frame" x="0.0" y="5" width="136" height="22"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="contentEdgeInsets" minX="24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="titleEdgeInsets" minX="12" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Profile" image="ic_menu_profile">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="profileTouched:" destination="-1" eventType="touchUpInside" id="om3-i1-EGh"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgP-3F-ATQ" customClass="DCLocalizedButton">
+                            <rect key="frame" x="0.0" y="26" width="136" height="22"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="contentEdgeInsets" minX="24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="titleEdgeInsets" minX="12" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Tasks" image="ic_menu_task">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="showTaskListBtnTouched:" destination="-1" eventType="touchUpInside" id="sLy-l3-bqe"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Pi-hk-unw" customClass="DCLocalizedButton">
+                            <rect key="frame" x="0.0" y="46" width="136" height="22"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="contentEdgeInsets" minX="24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="titleEdgeInsets" minX="12" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Invoices" image="ic_menu_invoice">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="invoiceBtnTouched:" destination="-1" eventType="touchUpInside" id="iMG-8l-2tJ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qSu-wf-RQT" customClass="DCLocalizedButton">
+                            <rect key="frame" x="0.0" y="66" width="136" height="22"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="contentEdgeInsets" minX="24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="titleEdgeInsets" minX="12" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Help" image="ic_menu_help">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="helpBtnTouched:" destination="-1" eventType="touchUpInside" id="oBb-ec-hkW"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKC-6S-pSL" customClass="DCLocalizedButton">
+                            <rect key="frame" x="0.0" y="84" width="140" height="22"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="contentEdgeInsets" minX="24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="titleEdgeInsets" minX="12" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Terms" image="ic_menu_term">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="termsBtnTouched:" destination="-1" eventType="touchUpInside" id="fPG-DR-O2R"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vLD-X3-qDn" customClass="DCLocalizedButton">
+                            <rect key="frame" x="1" y="104" width="140" height="22"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="contentEdgeInsets" minX="24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="titleEdgeInsets" minX="12" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Privacy" image="ic_menu_privacy">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="privacyBtnTouched:" destination="-1" eventType="touchUpInside" id="q7R-8o-yx6"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d06-66-D4g" customClass="DCLocalizedButton">
+                            <rect key="frame" x="0.0" y="123" width="140" height="22"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="contentEdgeInsets" minX="24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="titleEdgeInsets" minX="12" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Contact us" image="ic_menu_contact_us">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="contactUsBtnTouched:" destination="-1" eventType="touchUpInside" id="sv0-sQ-MWL"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baF-WB-ar6" customClass="DCLocalizedButton">
+                            <rect key="frame" x="0.0" y="142" width="136" height="22"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="contentEdgeInsets" minX="24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="titleEdgeInsets" minX="12" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Setting" image="ic_menu_setting">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="logoutBtnTouched:" destination="-1" eventType="touchUpInside" id="jwm-7U-Wcs"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="167" id="Kjd-pz-Nnf"/>
+                        <constraint firstAttribute="width" constant="140" id="RMp-Kw-ImZ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="IY0-SX-UWc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="29" id="0WN-3H-7nj"/>
+                <constraint firstAttribute="trailing" secondItem="dAO-tH-KJy" secondAttribute="trailing" constant="14" id="MMB-id-fSr"/>
+                <constraint firstItem="dAO-tH-KJy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="29" id="YeM-F4-PMw"/>
+                <constraint firstAttribute="trailing" secondItem="IY0-SX-UWc" secondAttribute="trailing" constant="14" id="ugs-J6-Nja"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <connections>
+                <action selector="backgroundTouched:" destination="-1" eventType="touchUpInside" id="UFa-Ng-DXx"/>
+            </connections>
+            <point key="canvasLocation" x="196" y="143"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_menu" width="140" height="113"/>
+        <image name="ic_menu_contact_us" width="12" height="11"/>
+        <image name="ic_menu_help" width="12" height="12"/>
+        <image name="ic_menu_invoice" width="12" height="10"/>
+        <image name="ic_menu_privacy" width="12" height="12"/>
+        <image name="ic_menu_profile" width="12" height="12"/>
+        <image name="ic_menu_setting" width="12" height="12"/>
+        <image name="ic_menu_task" width="12" height="12"/>
+        <image name="ic_menu_term" width="12" height="9"/>
+    </resources>
+</document>

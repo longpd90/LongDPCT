@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DCChatViewController">
+            <connections>
+                <outlet property="callingAlert" destination="f3b-AO-t1d" id="4CF-Mr-5NR"/>
+                <outlet property="collectionView" destination="evq-Fn-2jA" id="H8z-mM-QKn"/>
+                <outlet property="inputToolbar" destination="3yi-Cm-dNv" id="GUq-GS-zdc"/>
+                <outlet property="toolbarBottomLayoutGuide" destination="6g4-BL-i5J" id="itR-kH-hzz"/>
+                <outlet property="toolbarHeightConstraint" destination="Azb-K4-0gY" id="RwN-pC-dhR"/>
+                <outlet property="view" destination="K1A-ad-3UP" id="kQh-9j-I0t"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="K1A-ad-3UP">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="evq-Fn-2jA" customClass="JSQMessagesCollectionView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewLayout key="collectionViewLayout" id="7tW-y4-ws8" customClass="JSQMessagesCollectionViewFlowLayout"/>
+                    <cells/>
+                </collectionView>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3yi-Cm-dNv" customClass="JSQMessagesInputToolbar">
+                    <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Azb-K4-0gY"/>
+                    </constraints>
+                    <items/>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="evq-Fn-2jA" secondAttribute="trailing" id="3W6-Jp-JgI"/>
+                <constraint firstAttribute="bottom" secondItem="3yi-Cm-dNv" secondAttribute="bottom" id="6g4-BL-i5J"/>
+                <constraint firstItem="evq-Fn-2jA" firstAttribute="leading" secondItem="K1A-ad-3UP" secondAttribute="leading" id="DWN-l6-8hu"/>
+                <constraint firstItem="3yi-Cm-dNv" firstAttribute="leading" secondItem="K1A-ad-3UP" secondAttribute="leading" id="Dne-PD-Vxg"/>
+                <constraint firstAttribute="trailing" secondItem="3yi-Cm-dNv" secondAttribute="trailing" id="L5g-wZ-j4J"/>
+                <constraint firstItem="evq-Fn-2jA" firstAttribute="top" secondItem="K1A-ad-3UP" secondAttribute="top" id="egC-NS-235"/>
+                <constraint firstAttribute="bottom" secondItem="evq-Fn-2jA" secondAttribute="bottom" id="gGS-op-SD3"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="340" y="274"/>
+        </view>
+        <view contentMode="scaleToFill" id="f3b-AO-t1d">
+            <rect key="frame" x="0.0" y="0.0" width="255" height="192"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0123789456" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCw-J5-f6P">
+                    <rect key="frame" x="33" y="51" width="189" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="esx-ev-Duu" customClass="DCLocalizedButton">
+                    <rect key="frame" x="14" y="108" width="112" height="30"/>
+                    <color key="backgroundColor" red="0.49295438460000002" green="0.833688447" blue="0.48886931929999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="OK">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="agreeToCallTouched:" destination="-1" eventType="touchUpInside" id="JgS-hE-IAF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxH-ld-HJo" customClass="DCLocalizedButton">
+                    <rect key="frame" x="135" y="108" width="112" height="30"/>
+                    <color key="backgroundColor" red="0.94901960780000005" green="0.3803921569" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Cancel"/>
+                    <connections>
+                        <action selector="cancelCallTouched:" destination="-1" eventType="touchUpInside" id="6yX-4O-X7M"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Call" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u5p-d3-JcC" customClass="DCLocalizedLabel">
+                    <rect key="frame" x="106" y="22" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="722.5" y="279"/>
+        </view>
+    </objects>
+</document>

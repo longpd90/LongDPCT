@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PAAlbumCell" rowHeight="60" id="l4z-c0-Hee" customClass="PAAlbumCell">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="l4z-c0-Hee" id="6vV-4L-6gw">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="l2Z-Gg-xyY">
+                        <rect key="frame" x="5" y="5" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="YzR-qk-kDd"/>
+                            <constraint firstAttribute="height" constant="50" id="hOg-Cn-fE7"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwz-h1-pH3" customClass="DCLocalizedLabel">
+                        <rect key="frame" x="60" y="5" width="532" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="31.5" id="ujj-zn-PXZ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ujj-zn-PXZ"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ufn-vr-5DU" customClass="DCLocalizedLabel">
+                        <rect key="frame" x="60" y="34" width="532" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fwz-h1-pH3" firstAttribute="top" secondItem="6vV-4L-6gw" secondAttribute="top" constant="5" id="2Dv-WN-PJo"/>
+                    <constraint firstItem="l2Z-Gg-xyY" firstAttribute="top" secondItem="6vV-4L-6gw" secondAttribute="top" constant="5" id="2VM-z5-Klf"/>
+                    <constraint firstItem="ufn-vr-5DU" firstAttribute="leading" secondItem="l2Z-Gg-xyY" secondAttribute="trailing" constant="5" id="68T-xV-d3g"/>
+                    <constraint firstAttribute="bottom" secondItem="ufn-vr-5DU" secondAttribute="bottom" constant="4.5" id="DGy-y7-VN7"/>
+                    <constraint firstItem="ufn-vr-5DU" firstAttribute="leading" secondItem="l2Z-Gg-xyY" secondAttribute="trailing" constant="5" id="Hcr-vB-5MW"/>
+                    <constraint firstAttribute="trailing" secondItem="fwz-h1-pH3" secondAttribute="trailing" constant="8" id="LQO-A8-q8r"/>
+                    <constraint firstItem="fwz-h1-pH3" firstAttribute="leading" secondItem="l2Z-Gg-xyY" secondAttribute="trailing" constant="5" id="dOe-q1-WcG"/>
+                    <constraint firstAttribute="bottom" secondItem="fwz-h1-pH3" secondAttribute="bottom" constant="23" id="i03-cH-3Rg"/>
+                    <constraint firstItem="ufn-vr-5DU" firstAttribute="top" secondItem="6vV-4L-6gw" secondAttribute="top" constant="34" id="n9e-us-dHj"/>
+                    <constraint firstItem="l2Z-Gg-xyY" firstAttribute="leading" secondItem="6vV-4L-6gw" secondAttribute="leading" constant="5" id="qEP-mF-mfB"/>
+                    <constraint firstAttribute="trailing" secondItem="ufn-vr-5DU" secondAttribute="trailing" constant="8" id="qRI-11-avV"/>
+                    <constraint firstAttribute="bottom" secondItem="l2Z-Gg-xyY" secondAttribute="bottom" constant="4.5" id="rPg-cv-Na4"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="rPg-cv-Na4"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="albumNumberOfAssetsLabel" destination="ufn-vr-5DU" id="kc8-LF-EbA"/>
+                <outlet property="albumTitleLabel" destination="fwz-h1-pH3" id="UNI-8m-D2M"/>
+                <outlet property="firstImageView" destination="l2Z-Gg-xyY" id="92x-Mq-6nD"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

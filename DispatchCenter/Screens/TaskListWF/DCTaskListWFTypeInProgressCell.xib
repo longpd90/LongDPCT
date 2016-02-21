@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="kDCTaskListWFTypeInProgressCellIndentifier" rowHeight="136" id="3aU-t7-2bc" customClass="DCTaskListWFTypeInProgressCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="136"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3aU-t7-2bc" id="D6k-Cw-FBK">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="135"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JMf-g1-kv8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="135"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_location" translatesAutoresizingMaskIntoConstraints="NO" id="Htu-cx-u2S">
+                                <rect key="frame" x="15" y="11" width="16" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="16" id="T6p-As-Tpm"/>
+                                    <constraint firstAttribute="height" constant="20" id="VCH-kl-Jb0"/>
+                                    <constraint firstAttribute="width" secondItem="Htu-cx-u2S" secondAttribute="height" multiplier="4:5" id="eGK-Ss-ePX"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Panit wooden bunk bed bedframe into white" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ffb-CE-MRB" customClass="DCLocalizedLabel">
+                                <rect key="frame" x="15" y="39" width="271" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="4PK-xa-Ksp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_alarm" translatesAutoresizingMaskIntoConstraints="NO" id="vLb-0G-dBi">
+                                <rect key="frame" x="15" y="108" width="16" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vLb-0G-dBi" secondAttribute="height" multiplier="1:1" id="h1S-V2-KVE"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_arow" translatesAutoresizingMaskIntoConstraints="NO" id="J14-aj-Wxb">
+                                <rect key="frame" x="300" y="59" width="10" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="J14-aj-Wxb" secondAttribute="height" multiplier="2:3" id="MBM-Sj-wOV"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RW4-9g-W8K" customClass="DCLocalizedLabel">
+                                <rect key="frame" x="15" y="73" width="279" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="31" id="Myf-W7-kXC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Job Date:Oct 05,2015 02.00 PM - 05.00 PM" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgc-Bu-3Gb" customClass="DCLocalizedLabel">
+                                <rect key="frame" x="37" y="100" width="249" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="twG-OG-5Fk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="10"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Silom Bangrak Bangkok" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZJJ-4h-abG" customClass="DCLocalizedLabel">
+                                <rect key="frame" x="35" y="0.0" width="277" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="1zO-TO-tTv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dav-DS-LB6" customClass="DCLocalizedLabel">
+                                <rect key="frame" x="212" y="97" width="94" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="94" id="5O3-iD-c5J"/>
+                                    <constraint firstAttribute="height" constant="34" id="aUL-g5-M8W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fgc-Bu-3Gb" firstAttribute="leading" secondItem="vLb-0G-dBi" secondAttribute="trailing" constant="6" id="6RZ-12-anw"/>
+                            <constraint firstAttribute="trailing" secondItem="dav-DS-LB6" secondAttribute="trailing" constant="14" id="AUC-cl-Lqf"/>
+                            <constraint firstItem="Ffb-CE-MRB" firstAttribute="top" secondItem="ZJJ-4h-abG" secondAttribute="bottom" constant="-6" id="B5i-wp-9Mw"/>
+                            <constraint firstAttribute="trailing" secondItem="J14-aj-Wxb" secondAttribute="trailing" constant="10" id="C4A-TT-hPE"/>
+                            <constraint firstAttribute="trailing" secondItem="fgc-Bu-3Gb" secondAttribute="trailing" constant="34" id="DT2-Y7-ZoT"/>
+                            <constraint firstItem="RW4-9g-W8K" firstAttribute="top" secondItem="ZJJ-4h-abG" secondAttribute="bottom" constant="28" id="Dax-6Y-XxI"/>
+                            <constraint firstAttribute="trailing" secondItem="ZJJ-4h-abG" secondAttribute="trailing" constant="8" id="Dg7-L4-DY1"/>
+                            <constraint firstItem="J14-aj-Wxb" firstAttribute="leading" secondItem="Ffb-CE-MRB" secondAttribute="trailing" constant="14" id="KiD-Rd-4p8"/>
+                            <constraint firstItem="vLb-0G-dBi" firstAttribute="top" secondItem="Ffb-CE-MRB" secondAttribute="bottom" constant="30" id="M4Z-wz-0sw"/>
+                            <constraint firstItem="RW4-9g-W8K" firstAttribute="leading" secondItem="JMf-g1-kv8" secondAttribute="leading" constant="15" id="O1w-82-rnX"/>
+                            <constraint firstAttribute="bottom" secondItem="dav-DS-LB6" secondAttribute="bottom" constant="4" id="Ocw-Ih-MV5"/>
+                            <constraint firstAttribute="trailing" secondItem="RW4-9g-W8K" secondAttribute="trailing" constant="26" id="bcw-MA-hqZ"/>
+                            <constraint firstItem="J14-aj-Wxb" firstAttribute="top" secondItem="JMf-g1-kv8" secondAttribute="top" constant="59" id="hDa-RO-CLr"/>
+                            <constraint firstItem="Htu-cx-u2S" firstAttribute="leading" secondItem="JMf-g1-kv8" secondAttribute="leading" constant="15" id="hEi-x8-XVT"/>
+                            <constraint firstItem="Ffb-CE-MRB" firstAttribute="leading" secondItem="JMf-g1-kv8" secondAttribute="leading" constant="15" id="heU-tU-tAm"/>
+                            <constraint firstItem="ZJJ-4h-abG" firstAttribute="leading" secondItem="Htu-cx-u2S" secondAttribute="trailing" constant="4" id="lRO-Tm-fsC"/>
+                            <constraint firstItem="Htu-cx-u2S" firstAttribute="top" secondItem="JMf-g1-kv8" secondAttribute="top" constant="11" id="n4J-jU-QcG"/>
+                            <constraint firstItem="vLb-0G-dBi" firstAttribute="leading" secondItem="JMf-g1-kv8" secondAttribute="leading" constant="15" id="oGA-j8-6it"/>
+                            <constraint firstItem="ZJJ-4h-abG" firstAttribute="top" secondItem="JMf-g1-kv8" secondAttribute="top" id="rsK-HH-z8m"/>
+                            <constraint firstItem="fgc-Bu-3Gb" firstAttribute="top" secondItem="Ffb-CE-MRB" secondAttribute="bottom" constant="22" id="xO1-bB-jis"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="JMf-g1-kv8" firstAttribute="top" secondItem="D6k-Cw-FBK" secondAttribute="topMargin" constant="-8" id="PQn-tS-V4I"/>
+                    <constraint firstItem="JMf-g1-kv8" firstAttribute="leading" secondItem="D6k-Cw-FBK" secondAttribute="leadingMargin" constant="-8" id="SCb-Sa-gD2"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="JMf-g1-kv8" secondAttribute="bottom" constant="-8" id="SiX-3m-8cr"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="JMf-g1-kv8" secondAttribute="trailing" constant="-8" id="o9F-vt-kgf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateWorkLbl" destination="fgc-Bu-3Gb" id="3dP-4J-I5E"/>
+                <outlet property="locationLbl" destination="ZJJ-4h-abG" id="IL5-M8-P9J"/>
+                <outlet property="nameOtherLbl" destination="RW4-9g-W8K" id="V5r-AI-bql"/>
+                <outlet property="statusLabel" destination="dav-DS-LB6" id="Hm4-8l-B54"/>
+                <outlet property="workNameLbl" destination="Ffb-CE-MRB" id="xEp-Ne-AF3"/>
+            </connections>
+            <point key="canvasLocation" x="933" y="713"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_alarm" width="16" height="16"/>
+        <image name="icon_arow" width="10" height="15"/>
+        <image name="icon_location" width="16" height="20"/>
+    </resources>
+</document>

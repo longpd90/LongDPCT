@@ -1,0 +1,272 @@
+/* 
+  Localizable.strings
+  DispatchCenter
+
+  Created by Hung Bui on 10/7/15.
+  Copyright © 2015 Helpser. All rights reserved.
+*/
+
+/* ============================================
+ * REGISTER
+ * ============================================ */
+"str_logo" = "LOGO";
+"str_first_name" = "First name";
+"str_last_name" = "Last name";
+"str_email" = "Email";
+"str_country" = "Country";
+"str_phone" = "Phone";
+"str_phone_number" = "Phone Number";
+"str_agreement" = "By proceeding to the next step, you agree to our \nEnd User License Agreement";
+"str_agreement_link" = "End User License Agreement";
+"str_select" = "Select";
+"str_sms_code_vertify" = "We will send a verification\ncode to this number via SMS.";
+"str_ok" = "OK";
+"str_required_profile_fields" = "First Name, Last Name, Mobile, Country are required";
+"msg_email_not_valid" = "Please input right format email\n";
+"msg_first_name_limit" = "First name must less than 100 chars\n";
+"msg_last_name_limit" = "Last name must less than 100 chars\n";
+"msg_first_name_nil" = "Please enter your first name\n";
+"msg_last_name_nil" = "Please enter your last name\n";
+"msg_email_nil" = "Please enter your email\n";
+"msg_phone_nil" = "Please enter your phone number\n";
+"msg_country_nil" = "Please enter your country\n";
+"str_verification_code" = "Please enter verification code send via SMS\nto your number:";
+"str_password" = "Password";
+"str_confirm_password" = "Confirm Password";
+"str_set_your_password" = "Set Your Password";
+"msg_password_not_equals" = "These passwords don't match.";
+"str_support_introduction" = "LOGO will send a one time SMS messenge to verify\nyour phone number.\nCarries SMS changes may apply.";
+"str_support_confirm" = "Please confirm your country code and enter your\nphone number";
+"str_contact_support" = "Contact Support";
+"str_contact_support_describe" = "Please describe your problem";
+"msg_contact_support_problem" = "Please input your problem";
+"str_thanks_status" = "Thank you, we will contact you shortly.\n";
+"str_title_thanks_vc" = "Thank you for registration";
+"Submit" = "Submit";
+"Go to task list" = "Go to task list";
+
+/* ============================================
+ * LOGIN
+ * ============================================ */
+"str_username" = "Username";
+"str_create_acc" = "Don't have an account? Create";
+"str_acc_link" = "Create";
+"str_forgot_pass" = "Forgot password? Reset password";
+"str_reset_pass_link" = "Reset password";
+"msg_password_nil" = "Please enter your password";
+"Register" = "Register";
+"Login with Facebook" = "Login with Facebook";
+"Login with Google+" = "Login with Google+";
+"Login with Twitter" = "Login with Twitter";
+
+/* ============================================
+ * ACTIVE TASK
+ * ============================================ */
+"str_completed_task" = "Completed Tasks";
+"str_actived_task" = "Active Tasks";
+
+/* ============================================
+ * TASK DETAIL
+ * ============================================ */
+"str_task_detail" = "Task Details";
+"str_create_date" = "Create Date";
+"str_task" = "Task#";
+"str_total_amount" = "Total Amount";
+"str_due_date" = "Due Date";
+"str_contact_name" = "Contact Name";
+"str_contact_mobile" = "Contact Mobile";
+"str_location" = "Location";
+"str_status" = "Status";
+"str_task_done" = "Task Done";
+
+"str_order_confirm" = "Order Confirmed";
+"str_finding_you_an_operator" = "Finding You An Operator";
+"str_operator_on_the_way" = "Operator On The Way";
+"str_operator_at_location" = "Operator At Location";
+"str_operator_working_task" = "Operator Working Task";
+"str_operator_complete_task" = "Operator Complete Task";
+"str_awaiting_for_customer_approval" = "Awaiting for customer approval";
+"str_task_complete" = "Task Complete";
+
+"str_average_rating" = "Average Rating";
+"str_knowing_his_job" = "Knowing his job";
+"str_was_on_time" = "Was on time";
+"str_had_the_right_equipment" = "Had the right equipment";
+"str_pricing" = "Pricing";
+
+"str_team_leader" = "Leader";
+"str_team_member" = "Member";
+"str_cancel" = "Cancel";
+"str_edit_review" = "Edit Review";
+"str_team" = "Team";
+"str_task_progress" = "Task Progress";
+"str_review" = "Review";
+"str_no_comment" = "No comment";
+"str_reason" = "Reason";
+"str_cancel_review" = "Cancel";
+"str_confirm_review" = "OK";
+"str_task_confirm" = "Confirm";
+"str_task_cancel" = "Cancel";
+"str_success_task" = "Update successfully";
+
+"Loading..." = "Loading..."; // this case don't need follow rule "str_"
+"Processing..." = "Processing...";
+"Task successfully" = "Task successfully";
+"Cancel" = "Cancel";
+"OK" = "OK";
+"Status:" = "Status:";
+"Task date:" = "Task date:";
+"Task#:" = "Task#:";
+"Price:" = "Price:";
+"Location:" = "Location:";
+"Stop Task ?" = "Stop Task ?";
+"New" = "New";
+"Cancelled" = "Cancelled";
+"Finding You an Operator" = "Finding You an Operator";
+"Waiting HO Confirm" = "Waiting HO Confirm";
+"Operator On the Way" = "Operator On the Way";
+"Order Confirmed" = "Order Confirmed";
+"Operator Working Task" = "Operator Working Task";
+"Awaiting for Customer Approval" = "Awaiting for Customer Approval";
+"Task Complete" = "Task Complete";
+"Rejected" = "Rejected";
+"At Location" = "At Location";
+"Start Task" = "Start Task";
+"Stop Task" = "Stop Task";
+"Complete Task" = "Complete Task";
+"Review" = "Review";
+"Task progress" = "Task progress";
+"Need support?" = "Need support?";
+"Task Details" = "Task Details";
+"Details" = "Details";
+
+"Average Rating" = "Average Rating" ;
+"Knows his job" = "Knows his job";
+"Was on Time" = "Was on Time";
+"Had the right equipment" = "Had the right equipment";
+"Pricing" = "Pricing";
+
+
+/* ============================================
+ * RESET PASSWORD
+ * ============================================ */
+"str_reset_pass" = "Reset Password";
+"str_reset_intro" = "Please enter your phone number below. You will receive verification code to reset password";
+
+/* ============================================
+ * NETWORK ERROR
+ * ============================================ */
+"msg_network_error" = "Network error";
+
+/* ============================================
+ * UPDATE PROFILE
+ * ============================================ */
+"str_profile" = "Profile";
+"str_mobile_number" = "Mobile Number";
+"str_address" = "Address";
+"str_submit" = "Submit";
+"str_logout" = "Log out";
+
+/* ============================================
+ * EDIT PROFILE
+ * ============================================ */
+"msg_phone_not_valid" = "Please input phone number\n";
+"str_street_address" = "Street Address";
+"str_address2" = "Address2 (optional)";
+"str_sub_district" = "Sub District";
+"str_district" = "District";
+"str_state" = "State/Province";
+"str_zip_code" = "Zip/Postal Code";
+"msg_province_id_invalid" = "Please enter province first\n";
+"msg_district_id_invalid" = "Please enter district first\n";
+"str_use_current_geo_location" = "Use current geo location";
+"str_select_your_location" = "Select your location";
+"str_set_location" = "Set location";
+"msg_pick_location" = "Please select your location\n";
+"msg_country_not_support" = "The country is not support";
+"msg_update_profile_success" = "Your Profile Update Successfully";
+"msg_update_profile_fail" = "Profile Update Failed";
+"msg_province_not_found" = "Please reenter province\n";
+"msg_district_not_found" = "Please reenter district\n";
+"msg_subdistrict_not_found" = "Please reenter subdistrict\n";
+"str_confirm_logout" = "Are you sure you want to logout?";
+
+/* ============================================
+ * TRACKING
+ * ============================================ */
+"str_tracking" = "Find you customer location";
+"str_tracking_fa" = "Tracking";
+"str_will_arrive_in_minute" = "You ưill arrive in %li minute";
+"str_will_arrive_in_minute_fa" = "Will arrive in %li minute";
+"str_coming_soon" = "We are coming as soon as possible";
+"str_coming_soon_fa" = "You are coming as soon as possible";
+"msg_cant_get_location" = "Can't get location";
+"str_confirm_country_phone" = "Please confirm your country code and enter your phone number";
+"msg_support_ok" = "Thank you!\nWe will reply to you as soon as possible";
+
+
+/* ============================================
+ * INVOICE LIST
+ * ============================================ */
+"str_invoice_title" = "Invoices";
+"msg_log_out" = "Are you sure you want to log out";
+"str_invoice_date" = "Invoice Date: %@";
+
+
+/* ============================================
+ * INVOICE DETAIL
+ * ============================================ */
+"str_invoice_detail" = "Invoice Details";
+"str_invoice_detail_date" = "Invoice date:";
+"str_invoice_detail_no" = "Invoice#";
+"str_invoice_detail_status" = "Status:";
+"str_invoice_total" = "Total";
+"str_payment_detail" = "Payment Details";
+"str_payment" = "Payment";
+"str_payment_term" = "Payment Term";
+"str_payment_date" = "Payment Date";
+"str_next_payment" = "Next Payment";
+"str_detail" = "Details";
+"str_invoice_task_no" = "Task#";
+"str_wait_for_payment" = "UnPaid";
+"str_paid" = "Paid";
+"str_pay_for_this_invoice" = "Pay for this invoice";
+"msg_input_phone_number" = "Please input your phone number first\n";
+"str_alert_title_ok" = "Ok";
+
+/* ============================================
+ * CALL ACTION
+ * ============================================ */
+"str_call" = "Call %@";
+"str_callcenter" = "Call Callcenter";
+"Can not call this phone number" = "Can not call this phone number";
+/* ============================================
+ * SETTING
+ * ============================================ */
+"Notifications" = "Notifications";
+"Online status" = "Online status";
+"On" = "On";
+"Off" = "Off";
+"Privacy" = "Privacy";
+"Share Location" = "Share Location";
+"Setting>Notifications" = "Setting>Notifications";
+"Setting>Privacy" = "Setting>Privacy";
+"Show Preview" = "Show Preview";
+"Enable this option to include a preview of the message when a push notification arrives." = "Enable this option to include a preview of the message when a push notification arrives.";
+"In-app sounds" = "In-app sounds";
+"Enable this option to revice a sound alert when a new message arrives while the app is running." = "Enable this option to revice a sound alert when a new message arrives while the app is running.";
+"In-app Vibration" = "In-app Vibration";
+"Enable this option to recive a vibration alert when a new message arrives while the app is running." = "Enable this option to recive a vibration alert when a new message arrives while the app is running.";
+"Share Current Location" = "Share Current Location";
+"Enable this option to share your current location." = "Enable this option to share your current location.";
+"Setting>Online Status" = "Setting>Online Status";
+"Online" = "Online";
+"Enable this option appears online" = "Enable this option appears online";
+
+/* ============================================
+ * CHAT
+ * ============================================ */
+"Choose photo" = "Choose photo" ;
+"Camera" = "Camera";
+"Camera Roll" = "Camera Roll";
+"str_photo_cancel" = "Cancel";

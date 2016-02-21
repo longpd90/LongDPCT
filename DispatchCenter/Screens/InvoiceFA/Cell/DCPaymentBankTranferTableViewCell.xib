@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="55" id="KGk-i7-Jjw" customClass="DCPaymentBankTranferTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2NE-2D-isc" customClass="DCLocalizedButton">
+                        <rect key="frame" x="50" y="5" width="220" height="35"/>
+                        <color key="backgroundColor" red="1" green="0.74509803919999995" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="EHV-yd-YgE"/>
+                            <constraint firstAttribute="width" constant="220" id="Ifb-Sj-7m4"/>
+                        </constraints>
+                        <state key="normal" title="Confirm Bank Transfer">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="paymentByBankTranfer:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="8KY-qJ-xXe"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="2NE-2D-isc" secondAttribute="bottom" constant="4" id="MS1-ZL-XZC"/>
+                    <constraint firstItem="2NE-2D-isc" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="y6W-Ss-DUj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="446" y="322.5"/>
+        </tableViewCell>
+    </objects>
+</document>
